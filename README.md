@@ -11,10 +11,10 @@ Then right click and edit the `Astracoin.conf` file with a text editor (notepad+
 
 `PLEASE NOTE: Change the RPC USER and  RPC PASSWORD`
 ```
-rpcuser=<someuser>
-rpcpassword=<someastrapassword>
+rpcuser=someuser
+rpcpassword=somepassword
 rpcallowip=127.0.0.1
-port=4144
+port=4145
 server=1
 listen=1
 daemon=1
@@ -22,9 +22,11 @@ txindex=1
 logtimestamps=1
 maxconnections=256
 staking=1
-addnode=108.175.2.113:4144
-addnode=51.68.198.137:4144
-addnode=155.138.194.233:4144
-addnode=144.91.104.184:4144
+addnode=104.168.145.22:4144
+addnode=73.180.79.118:4144
+addnode=144.202.23.87:4144
+addnode=167.86.106.29:4144
+addnode=207.180.250.120:4144
+addnode=167.86.87.34:4144
 ```
 Hit save, Navigate back to `Astracoin-qt.exe` and open it again you will have to allow for the wallet to sync up to the correct block 
